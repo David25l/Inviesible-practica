@@ -49,6 +49,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.guitarra {
+  overflow: hidden;
+  border: 1px solid #1F313C;
+  padding: 10px;
+  margin: 10px;
+}
+
+.guitarra ol {
+  padding: 0;
+}
+
+.derecha {
+  float: right;
+}
+
+.izquierda {
+  float: left;
+}
+
 .portada {
   background-image: url('../images/background.png');
   color: white;
@@ -62,4 +81,12 @@ body {
 .contenedor {
   width: 800px;
   margin: auto;
+}
+
+.contenedor-guitarra-a {
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+  margin-left: 370px;
 }
