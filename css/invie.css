@@ -9,6 +9,14 @@ body {
   margin: 0;
 }
 
+button {
+  border-radius: 5px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 7px;
+}
+
 .header {
   position: relative;
 }
@@ -60,6 +68,7 @@ body {
   border: 1px solid #1F313C;
   padding: 10px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 .guitarra ol {
